@@ -2,12 +2,13 @@
 Summary:	Tool that cracks 802.11 WEP encryption keys
 Summary(pl):	Program do ³amania szyfrowania WEP dla protoko³u 802.11
 Name:		WEPCrack
-Version:	0.0.10
+Version:	0.1.0
 Release:	1
 License:	GPL
 Group:		Networking
 Source0:	http://dl.sourceforge.net/wepcrack/%{name}-%{version}.tar.gz
-# Source0-md5:	d95af657c629e0c10c90a375a0f7f2c7
+# Source0-md5:	bbab3f07c8b47ac275459320f698711a
+# Source0-size:	6277
 URL:		http://sourceforge.net/projects/wepcrack/
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
@@ -28,7 +29,7 @@ przy u¿yciu luki znalezionej w kluczach RC4.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install prism-decode.pl prism-getIV.pl WeakIVGen.pl WEPCrack.pl $RPM_BUILD_ROOT%{_bindir}
+install pcap-getIV.pl WeakIVGen.pl WEPCrack.pl $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
