@@ -5,7 +5,7 @@ Name:		WEPCrack
 Version:	0.0.10
 Release:	1
 License:	GPL
-Group:		Applications/WWW
+Group:		Networking
 Source0:	http://dl.sourceforge.net/wepcrack/%{name}-%{version}.tar.gz
 # Source0-md5:	d95af657c629e0c10c90a375a0f7f2c7
 URL:		http://sourceforge.net/projects/webcrack/
