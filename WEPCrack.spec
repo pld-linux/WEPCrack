@@ -18,8 +18,8 @@ WEPCrack is a tool that cracks 802.11 WEP encryption keys using the
 latest discovered weakness of RC4 key scheduling.
 
 %description -l pl
-WEPCrack to program do ³amania szydrowania WEP dla protoko³u 802.11,
-uu¿ywaj±c luki znalezionej w kluczach RC4.
+WEPCrack to program do ³amania szyfrowania WEP dla protoko³u 802.11,
+u¿ywaj±c luki znalezionej w kluczach RC4.
 
 %prep
 %setup -q -c %{name}-%{version}
