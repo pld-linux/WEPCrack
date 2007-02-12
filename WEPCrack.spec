@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Tool that cracks 802.11 WEP encryption keys
-Summary(pl):	Program do ≥amania szyfrowania WEP dla protoko≥u 802.11
+Summary(pl.UTF-8):   Program do ≈Çamania szyfrowania WEP dla protoko≈Çu 802.11
 Name:		WEPCrack
 Version:	0.1.0
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 WEPCrack is a tool that cracks 802.11 WEP encryption keys using the
 latest discovered weakness of RC4 key scheduling.
 
-%description -l pl
-WEPCrack to program do ≥amania szyfrowania WEP dla protoko≥u 802.11,
-przy uøyciu luki znalezionej w kluczach RC4.
+%description -l pl.UTF-8
+WEPCrack to program do ≈Çamania szyfrowania WEP dla protoko≈Çu 802.11,
+przy u≈ºyciu luki znalezionej w kluczach RC4.
 
 %prep
 %setup -q -c
