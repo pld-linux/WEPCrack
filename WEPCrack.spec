@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tool that cracks 802.11 WEP encryption keys
 Summary(pl.UTF-8):	Program do łamania szyfrowania WEP dla protokołu 802.11
 Name:		WEPCrack
